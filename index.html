@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Credit Card Checkout</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+        <link href="./style.css" rel="stylesheet">
+    </head>
+    <body class="gradient-background">
+        <div class="container">
+            <div class="row mb-3">
+                <h1>Payment page</h1>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="mb-6">
+                                        <label for="creditCardForm" class="form-label">Card's Holder Name</label>
+                                        <input type="text" class="form-control" id="creditCardForm">
+                                    </div>
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="mb-6">
+                                        <label for="creditCardForm" class="form-label">Card Number</label>
+                                        <input type="number" class="form-control" id="creditCardForm" >
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-4">
+                                <div class="col-6">
+                                    <div class="mb-6">
+                                        <label for="creditCardForm" class="form-label">Expiry</label>
+                                        <input type="date" class="form-control" id="creditCardForm">
+                                    </div>
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="mb-6">
+                                        <label for="creditCardForm" class="form-label">CVV</label>
+                                        <input type="number" class="form-control" id="creditCardForm" >
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-4">
+                                <div class="col-12">
+                                    <input type="checkbox">
+                                    <small>Remember bank card</small>
+                                </div>
+                            </div>  
+                            
+                            <div class="row mt-4">
+                                <div class="col-12">
+                                    <button class="btn btn-lg btn-outline-light w-100 rounded-3 gradient-background">PAY NOW</button>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col mt-2">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="container">
+                            <div class="row">
+                                <h5>Order Summary</h5>
+                                <hr>
+                                <div class="col-4">
+                                    <img src="./bonds.jpg" alt="shopping 1" width="100px" height="100px" class="rounded-3">
+                                </div>
+                                <div class="col-4 align-self-center">
+                                    <small >Bonds by IQOS</small>
+                                </div>
+                                <div class="col-4 align-self-center">
+                                    <small class="harga">Rp. 250.000,00</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    </body>
+</html>

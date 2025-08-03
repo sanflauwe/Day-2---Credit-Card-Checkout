@@ -1,0 +1,27 @@
+.gradient-background{
+    background-color: #eeaeca;
+    background: linear-gradient(nulldeg,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+h5{
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.harga{
+    color: green;
+}
