@@ -1,6 +1,7 @@
 .gradient-background{
-    background-color: #eeaeca;
-    background: linear-gradient(nulldeg,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    background: linear-gradient(300deg,#eeaeca, #94bbe9, #eeaeca);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
 }
 
 body{
@@ -15,6 +16,7 @@ h1{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 35px;
+    color: #4c0d28;
 }
 
 h5{
